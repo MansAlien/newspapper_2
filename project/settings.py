@@ -41,8 +41,8 @@ INSTALLED_APPS = [
     #3rd party packs
     'crispy_forms',
     'crispy_bootstrap5',
-    # accounts app
-    # "accounts.apps.AccountsConfig",
+    # my apps
+    "accounts.apps.AccountsConfig",
 ]
 
 MIDDLEWARE = [
@@ -147,3 +147,5 @@ CRISPY_TEMPLATE_PACK = "bootstrap5"
 # EMAIL_PORT = --
 # EMAIL_USE_TLS = True
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+
+AUTH_USER_MODEL = 'accounts.CustomUser'
