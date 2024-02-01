@@ -1,2 +1,6 @@
 .venv
 django_setup.sh
+.env
+__pycache__/
+db.sqlite3
+.DS_Store #Mac os only
